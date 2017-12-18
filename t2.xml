@@ -1,0 +1,63 @@
+<student name="HULK">
+    <course>
+        <name>CSE462</name>
+        <grade>A</grade>
+    </course>
+    <course>
+        <name>CSE487</name>
+        <grade>4</grade>
+   </course>
+    <course>
+        <name>CSE396</name>
+        <grade>3</grade>
+   </course>
+</student>
+<student Name=Gru>
+    <course>
+        <name>CSE462</name>
+        <grade>3.8</grade>
+    </course>
+    <course>
+        <name>CSE486</name>
+        <grade>2.4</grade>
+   </course>
+    <course>
+        <name>CSE250</name>
+        <grade>4</grade>
+</student>
+   </course>
+<xml 2name="Dru">
+    <course>
+        <name>CSE462</name>
+        <grade>1.5</grade>
+    </course>
+    <grade>
+        <name>CSE191</name>
+        <course>2.7</grade>
+   </course>
+    <course>
+        <name>CSE396</name>
+        <grade>1</grade>
+   </course>
+</student>
+<student/ name="Bob the Minion">
+    <course>
+        <name>CSE488</name>
+        <grade>2.9</grade>
+    </course>
+    <course>
+        <name>CSE486</name>
+        <grade>3.4</grade>
+   </course>
+    <course>
+        <name>CSE486</grade>
+        <grade>3.4</name>
+   </course>
+</student>
+<student name="Herb Overkill">
+    <course>
+        <name>CSE462</name>
+        <grade>4</grade>
+   </course>
+</student>
+<?xml version="1.0" encoding="UTF-8"?>
