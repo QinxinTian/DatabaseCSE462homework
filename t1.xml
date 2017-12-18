@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj3>
+    <student name="Scarlet Overkill">
+        <course>
+            <name>CSE462</name>
+            <grade>4</grade>
+        </course>
+        <course>
+            <name>CSE486</name>
+            <grade>3.6</grade>
+       </course>
+        <course>
+            <name>CSE396</name>
+            <grade>3</grade>
+       </course>
+    </student>
+    <student name="Gru">
+        <course>
+            <name>CSE462</name>
+            <grade>3.4</grade>
+        </course>
+        <course>
+            <name>CSE486</name>
+            <grade>2.8</grade>
+       </course>
+        <course>
+            <name>CSE250</name>
+            <grade>3.4</grade>
+       </course>
+    </student>
+    <student name="Dru">
+        <course>
+            <name>CSE462</name>
+            <grade>3.2</grade>
+        </course>
+        <course>
+            <name>CSE486</name>
+            <grade>2.7</grade>
+       </course>
+        <course>
+            <name>CSE396</name>
+            <grade>2.7</grade>
+       </course>
+    </student>
+    <student name="Bob the Minion">
+        <course>
+            <name>CSE396</name>
+            <grade>2</grade>
+        </course>
+        <course>
+            <name>CSE479</name>
+            <grade>3</grade>
+       </course>
+    </student>
+    <student name="Herb Overkill">
+        <course>
+            <name>CSE396</name>
+            <grade>4</grade>
+       </course>
+    </student>
+</Proj3>
