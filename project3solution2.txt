@@ -1,0 +1,22 @@
+//question 3a:
+for $c in doc("t1.xml")/Proj3/student/course
+where $c/name = "CSE462"
+return (<res>{string($c/../@name)}, {data($c/grade)}</res>)
+
+//question 3b:
+for $c in doc("t1.xml")/Proj3/student/course
+let $cn := $c/name
+group by $cn
+return if(avg($c/grade) >= 3.0000)
+        then <res>{data($cn)}</res>
+        else ()
+
+//extra credit:
+<courses>{
+for $cn in distinct-values(doc("t1.xml")//course/name)
+return <course name="{$cn}"> {for $s in //student
+        return if($s/course/name = $cn)
+        then (<student name="{data($s/[@name])}"><grade>{data($s/course[name=$cn]/grade)}</grade></student>)
+        else ()}
+        </course>
+}</courses>
